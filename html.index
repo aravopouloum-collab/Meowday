@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Meowday Tutu ❤️</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="background"></div>
+
+<div id="paws"></div>
+
+<div class="container">
+
+<div id="scene1" class="scene active">
+
+<div class="seal">
+👑🐾
+</div>
+
+<h1>Royal Meowcree</h1>
+
+<p class="subtitle">
+A very important document awaits...
+</p>
+
+<button id="beginBtn">
+Open Royal Decree
+</button>
+
+</div>
+
+<div id="scene2" class="scene">
+
+<div class="scroll">
+
+<h2>📜 Royal Meowcree 📜</h2>
+
+<p id="letter"></p>
+
+<button id="blackPaperBtn">
+📖 Open the Black Paper
+</button>
+
+</div>
+
+</div>
+
+<div id="scene3" class="scene">
+
+<div class="book">
+
+<h2>📖 BLACK PAPER</h2>
+
+<p>
+Write the name of anyone who dared hiss at us.
+</p>
+
+<input
+id="enemy"
+type="text"
+placeholder="Name...">
+
+<button id="recordBtn">
+Record Name
+</button>
+
+<div id="recordResult"></div>
+
+<button
+id="giftBtn"
+style="display:none;">
+🎁 Claim Royal Gift
+</button>
+
+</div>
+
+</div>
+
+<div id="scene4" class="scene">
+
+<div class="gift">
+
+<h2>🎀 Congratulations! 🎀</h2>
+
+<p>
+The Royal Court has prepared
+a very special gift...
+</p>
+
+<button id="openGift">
+Open Gift
+</button>
+
+<div id="giftReveal">
+
+<h3>
+
+⭐ ONE YEAR SUBSCRIPTION ⭐
+
+</h3>
+
+<h2>
+
+📺 Harpagon's YouTube Channel
+
+</h2>
+
+<div class="subs">
+
+Subscribers
+
+<div id="count">
+
+1
+
+</div>
+
+</div>
+
+<button id="acceptGift">
+
+Accept Gift
+
+</button>
+
+<div id="giftMessage"></div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="scene5" class="scene">
+
+<div class="ending">
+
+<h2>
+
+❤️ Happy Meowday, Tutu ❤️
+
+</h2>
+
+<p>
+
+Thank you for always being there.
+
+I hope this year is full of happiness,
+cats,
+food,
+and absolutely nobody worthy
+of entering the Black Paper.
+
+Have an amazing birthday!
+
+🐾
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
